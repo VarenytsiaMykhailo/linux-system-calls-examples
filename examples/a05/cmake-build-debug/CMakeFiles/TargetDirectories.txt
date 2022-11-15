@@ -1,0 +1,3 @@
+/home/mike/Рабочий стол/AOC/progs/a05/cmake-build-debug/CMakeFiles/a05.dir
+/home/mike/Рабочий стол/AOC/progs/a05/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/mike/Рабочий стол/AOC/progs/a05/cmake-build-debug/CMakeFiles/rebuild_cache.dir
