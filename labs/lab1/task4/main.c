@@ -33,6 +33,7 @@ int main(int argc, char **argv) {
     }
     printf("write_result = %zd\n", write_result);
 
+    // aaaaaa
     __off_t lseek_result_current_pointer;
     if ((lseek_result_current_pointer = lseek(file_descriptor, 0, SEEK_END)) == -1) {
         perror("lseek error");
@@ -46,6 +47,7 @@ int main(int argc, char **argv) {
     }
     printf("write_result = %zd\n", write_result);
 
+    // aaaaaab
     if ((lseek_result_current_pointer = lseek(file_descriptor, 0, SEEK_CUR)) == -1) {
         perror("lseek error");
         //exit(1);
@@ -57,7 +59,7 @@ int main(int argc, char **argv) {
         //exit(1);
     }
     printf("write_result = %zd\n", write_result);
-
+    // aaaaaabc
     if ((lseek_result_current_pointer = lseek(file_descriptor, 0, SEEK_SET)) == -1) {
         perror("lseek error");
         //exit(1);
@@ -69,7 +71,7 @@ int main(int argc, char **argv) {
         //exit(1);
     }
     printf("write_result = %zd\n", write_result);
-
+    // daaaaabc
     int close_result;
     if ((close_result = close(file_descriptor)) == -1) {
         perror("close error");

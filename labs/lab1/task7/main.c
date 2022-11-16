@@ -3,6 +3,8 @@
 #include <sys/stat.h>
 #include <time.h>
 
+// /dev/sda1 - блок ориентированный (диск)
+// /dev/tty0 - байт ориентированный (шелл)
 int main(int argc, char *argv[]) {
     struct stat st;
     if (argc != 2) {

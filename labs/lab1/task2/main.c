@@ -64,7 +64,7 @@ int main(int argc, char **argv) {
     }
     printf("close_result = %d\n", close_result);;
 
-    if ((file_descriptor = open(argv[1], O_WRONLY)) == -1) {
+    if ((file_descriptor = open(argv[1], O_RDWR)) == -1) {
         perror("open error");
         //exit(1);
     }
