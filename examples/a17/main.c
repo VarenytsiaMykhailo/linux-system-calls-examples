@@ -3,6 +3,8 @@
 #include <fcntl.h>
 #include <unistd.h>
 
+// For test run in cmd:
+// for i in {1..1000}; do ./a17; done
 int main() {
     char buf[10];
     sprintf(buf, ".tmp%d", getpid());
