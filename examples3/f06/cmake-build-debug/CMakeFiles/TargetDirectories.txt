@@ -1,0 +1,3 @@
+/home/mike/Рабочий стол/AOC/examples3/f06/cmake-build-debug/CMakeFiles/f06.dir
+/home/mike/Рабочий стол/AOC/examples3/f06/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/mike/Рабочий стол/AOC/examples3/f06/cmake-build-debug/CMakeFiles/rebuild_cache.dir
