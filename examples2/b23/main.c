@@ -22,5 +22,5 @@ int main() {
     act.sa_flags = 0;
     sigaction(SIGALRM, &act, NULL);
     alarm(3); // Просим ядро послать сигнал alrm через три секунды
-    for(;;);
+    for (;;);
 }

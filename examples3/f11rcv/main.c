@@ -16,6 +16,7 @@ struct message {
 
 // Просмотр запущенных очередей сообщений:
 // ipcs -a
+// ./f11rcv 0 9
 int main(int argc, char *argv[], char *envp[]) {
     key_t key;
     int msqid, msgtype, k;

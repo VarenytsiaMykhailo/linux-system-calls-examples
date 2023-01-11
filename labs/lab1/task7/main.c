@@ -4,7 +4,7 @@
 #include <time.h>
 
 // /dev/sda1 - блок ориентированный (диск)
-// /dev/tty0 - байт ориентированный (шелл)
+// /dev/tty0 - байт ориентированный
 int main(int argc, char *argv[]) {
     struct stat st;
     if (argc != 2) {

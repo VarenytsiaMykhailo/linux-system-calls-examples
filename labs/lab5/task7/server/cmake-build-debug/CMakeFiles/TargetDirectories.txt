@@ -1,0 +1,3 @@
+/home/mike/Рабочий стол/AOC/labs/lab5/task7/server/cmake-build-debug/CMakeFiles/server.dir
+/home/mike/Рабочий стол/AOC/labs/lab5/task7/server/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/mike/Рабочий стол/AOC/labs/lab5/task7/server/cmake-build-debug/CMakeFiles/rebuild_cache.dir

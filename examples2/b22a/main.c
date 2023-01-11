@@ -20,7 +20,8 @@ int main() {
     signal(3, f);
     signal(8, f);
     signal(9, f);
-    if (pid = fork()) {
+    pid = fork();
+    if (pid) {
         // Посылаем сразу три сигнала дочернему процессу и смотри по какому он завершится
         kill(pid, 8);
         kill(pid, 3);
